@@ -17,17 +17,28 @@ IplImage* doPyrDown (IplImage* in, int filter = IPL_GAUSSIAN_5x5 ) {
     return ( out );
 }
 
+IplImage* doCanny (IplImage* in, double lowThresh, double highThresh, double aperture ) {
+//    if (in->nChannels != 1) return (0);
+    IplImage* out = cvCreateImage(cvGetSize(in), IPL_DEPTH_8U, 1);
+    cvCanny( in, out, lowThresh, highThresh, aperture);
+    return ( out );
+}
+
 
 int main(int argc, const char * argv[]) {
     
-    IplImage* image = cvLoadImage( argv[1] );
+    const char* path = argv[1];
+    
+    if (path == NULL) path = "icon2.png";
+    
+    IplImage* image = cvLoadImage( path );
 
     cvNamedWindow( "Example4-in" );
     cvNamedWindow( "Example4-out" );
     
     cvShowImage( "Example4-in",  image);
     
-    IplImage* out = doPyrDown(image);
+    IplImage* out = doCanny(image, 10, 100, 3);
     
     cvShowImage( "Example4-out",  out);
     
