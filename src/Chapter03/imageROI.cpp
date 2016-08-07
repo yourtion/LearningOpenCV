@@ -1,5 +1,5 @@
 //
-//  main.cpp
+//  imageROI
 //  LearningOpenCV
 //
 //  Created by YourtionGuo on 7/28/16.
