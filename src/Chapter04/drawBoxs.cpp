@@ -1,5 +1,5 @@
 //
-//  main.cpp
+//  drawBoxs.cpp
 //  LearningOpenCV
 //
 //  Created by YourtionGuo on 7/28/16.
