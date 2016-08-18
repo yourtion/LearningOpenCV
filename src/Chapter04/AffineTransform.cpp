@@ -1,5 +1,5 @@
 //
-//  main.cpp
+//  AffineTransform.cpp
 //  LearningOpenCV
 //
 //  Created by YourtionGuo on 7/28/16.
@@ -52,7 +52,7 @@ int main(int argc, const char * argv[]) {
         cvShowImage( "Affine_Transform" , dst );
         
         cvWaitKey();
-        
+
         cvReleaseImage( &dst );
 
     }
