@@ -63,17 +63,19 @@
 		CB8E87141D49B63400884BD7 /* libopencv_videostab.2.4.13.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CB8E86D71D49B63400884BD7 /* libopencv_videostab.2.4.13.dylib */; };
 		CB8E87151D49B63400884BD7 /* libopencv_videostab.2.4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CB8E86D81D49B63400884BD7 /* libopencv_videostab.2.4.dylib */; };
 		CB8E87161D49B63400884BD7 /* libopencv_videostab.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CB8E86D91D49B63400884BD7 /* libopencv_videostab.dylib */; };
+		CB96FA101D658E01009760DA /* data in CopyFiles */ = {isa = PBXBuildFile; fileRef = CB96FA0F1D658DEE009760DA /* data */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		CB8E86931D49B50100884BD7 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 16;
 			files = (
+				CB96FA101D658E01009760DA /* data in CopyFiles */,
 			);
-			runOnlyForDeploymentPostprocessing = 1;
+			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
@@ -135,6 +137,7 @@
 		CB8E86D71D49B63400884BD7 /* libopencv_videostab.2.4.13.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_videostab.2.4.13.dylib; sourceTree = "<group>"; };
 		CB8E86D81D49B63400884BD7 /* libopencv_videostab.2.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_videostab.2.4.dylib; sourceTree = "<group>"; };
 		CB8E86D91D49B63400884BD7 /* libopencv_videostab.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_videostab.dylib; sourceTree = "<group>"; };
+		CB96FA0F1D658DEE009760DA /* data */ = {isa = PBXFileReference; lastKnownFileType = folder; name = data; path = ../../../Mac/LearningOpenCV/data; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -206,6 +209,7 @@
 		CB8E868C1D49B50100884BD7 = {
 			isa = PBXGroup;
 			children = (
+				CB96FA0F1D658DEE009760DA /* data */,
 				CB8E86A21D49B63400884BD7 /* lib */,
 				CB8E869F1D49B58D00884BD7 /* src */,
 				CB8E86961D49B50100884BD7 /* Products */,
