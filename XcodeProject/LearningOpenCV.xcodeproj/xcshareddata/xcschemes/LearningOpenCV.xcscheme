@@ -64,19 +64,19 @@
       <CommandLineArguments>
          <CommandLineArgument
             argument = "data/baboon.jpg"
-            isEnabled = "YES">
-         </CommandLineArgument>
-         <CommandLineArgument
-            argument = "data/fruits.jpg"
-            isEnabled = "YES">
-         </CommandLineArgument>
-         <CommandLineArgument
-            argument = "data/baboon.jpg"
             isEnabled = "NO">
          </CommandLineArgument>
          <CommandLineArgument
             argument = "data/fruits.jpg"
             isEnabled = "NO">
+         </CommandLineArgument>
+         <CommandLineArgument
+            argument = "data/faceScene.jpg"
+            isEnabled = "YES">
+         </CommandLineArgument>
+         <CommandLineArgument
+            argument = "data/faceTemplate.jpg"
+            isEnabled = "YES">
          </CommandLineArgument>
       </CommandLineArguments>
       <AdditionalOptions>
