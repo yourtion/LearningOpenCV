@@ -68,6 +68,14 @@
          </CommandLineArgument>
          <CommandLineArgument
             argument = "data/fruits.jpg"
+            isEnabled = "YES">
+         </CommandLineArgument>
+         <CommandLineArgument
+            argument = "data/baboon.jpg"
+            isEnabled = "NO">
+         </CommandLineArgument>
+         <CommandLineArgument
+            argument = "data/fruits.jpg"
             isEnabled = "NO">
          </CommandLineArgument>
       </CommandLineArguments>
