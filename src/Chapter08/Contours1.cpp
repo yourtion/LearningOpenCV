@@ -1,5 +1,5 @@
 //
-//  main.cpp
+//  Contours.cpp
 //  LearningOpenCV
 //
 //  Created by YourtionGuo on 7/28/16.
@@ -41,7 +41,7 @@ int main(int argc, const char * argv[]) {
         on_trackbar(0);
         
         cvWaitKey();
-        
+
         cvReleaseImage( &g_image );
         cvReleaseImage( &g_gray );
         cvReleaseMemStorage( &g_storage );

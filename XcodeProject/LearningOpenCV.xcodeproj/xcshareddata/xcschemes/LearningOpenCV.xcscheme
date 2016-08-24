@@ -68,15 +68,15 @@
          </CommandLineArgument>
          <CommandLineArgument
             argument = "data/fruits.jpg"
-            isEnabled = "NO">
+            isEnabled = "YES">
          </CommandLineArgument>
          <CommandLineArgument
             argument = "data/faceScene.jpg"
-            isEnabled = "YES">
+            isEnabled = "NO">
          </CommandLineArgument>
          <CommandLineArgument
             argument = "data/faceTemplate.jpg"
-            isEnabled = "YES">
+            isEnabled = "NO">
          </CommandLineArgument>
       </CommandLineArguments>
       <AdditionalOptions>
