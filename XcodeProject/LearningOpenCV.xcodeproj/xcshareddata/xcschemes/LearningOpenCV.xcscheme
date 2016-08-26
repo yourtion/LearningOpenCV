@@ -67,8 +67,12 @@
             isEnabled = "NO">
          </CommandLineArgument>
          <CommandLineArgument
-            argument = "data/fruits.jpg"
+            argument = "data/edge.png"
             isEnabled = "YES">
+         </CommandLineArgument>
+         <CommandLineArgument
+            argument = "data/fruits.jpg"
+            isEnabled = "NO">
          </CommandLineArgument>
          <CommandLineArgument
             argument = "data/faceScene.jpg"
