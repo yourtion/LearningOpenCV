@@ -1,5 +1,5 @@
 //
-//  main.cpp
+//  Kalman.cpp
 //  LearningOpenCV
 //
 //  Created by YourtionGuo on 7/28/16.
@@ -12,20 +12,20 @@
 
 #define CVX_DONT_CARE -1
 
-#define CVX_CAMERA	0
-#define CVX_AVI		1
+#define CVX_CAMERA  0
+#define CVX_AVI     1
 
-#define CVX_RED		CV_RGB(0xff,0x00,0x00)
-#define CVX_GREEN	CV_RGB(0x00,0xff,0x00)
-#define CVX_BLUE	CV_RGB(0x00,0x00,0xff)
+#define CVX_RED     CV_RGB(0xff,0x00,0x00)
+#define CVX_GREEN   CV_RGB(0x00,0xff,0x00)
+#define CVX_BLUE    CV_RGB(0x00,0x00,0xff)
 
-#define CVX_CYAN	CV_RGB(0x00,0xff,0xff)
-#define CVX_MAGENTA	CV_RGB(0xff,0x00,0xff)
-#define CVX_YELLOW	CV_RGB(0xff,0xff,0x00)
+#define CVX_CYAN    CV_RGB(0x00,0xff,0xff)
+#define CVX_MAGENTA CV_RGB(0xff,0x00,0xff)
+#define CVX_YELLOW  CV_RGB(0xff,0xff,0x00)
 
-#define CVX_WHITE	CV_RGB(0xff,0xff,0xff)
-#define CVX_BLACK	CV_RGB(0x00,0x00,0x00)
-#define CVX_GRAY50	CV_RGB(0x88,0x88,0x88)
+#define CVX_WHITE   CV_RGB(0xff,0xff,0xff)
+#define CVX_BLACK   CV_RGB(0x00,0x00,0x00)
+#define CVX_GRAY50  CV_RGB(0x88,0x88,0x88)
 
 typedef struct {
     float x;
@@ -53,7 +53,7 @@ CvScalar cvx_hsv2rgb( CvScalar hsv ) {
     float h = hsv.val[0]/30.0f;
     float s = hsv.val[1]/255.0f;
     float v = hsv.val[2]/255.0f;
-    while( h>6.0f )	h-=6.0f;
+    while( h>6.0f ) h-=6.0f;
     while( h<0.0f ) h+=6.0f;
     float m, n, f;
     int i;
