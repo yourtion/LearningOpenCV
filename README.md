@@ -4,6 +4,8 @@ Source code for Learning OpenCV
 
 《学习OpenCV》源码，使用 `OpenCV 2.4` 自带 Mac 项目 Xcode 工程。
 
+![ScreenShot](ScreenShot1.png)
+
 ## 使用方法
 
 ### 下载源码
